@@ -143,6 +143,7 @@ main {
         margin-top: 79px;
     }
 }
+<<<<<<< HEAD
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -150,3 +151,32 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+=======
+#menu {
+    display: flex;
+}
+ #menu>li {
+     padding-left: 1rem;
+ }
+ .nav-toggle-label {
+     display: none;
+ }
+  #logo {
+      font-size: 280%;
+      line-height: 75px;
+      margin: 0 0.5rem;
+  }
+
+   /* Main content */
+   main {
+       /* Push main content down to accommodate larger header */
+       margin-top: 79px;
+   }
+   }
+   /* Large devices (laptops and desktops, 992px and up) */
+   @media screen and (min-width: 992px) {
+       #menu a:hover {
+           border-bottom: 1px solid #3a3a3a;
+       }
+   }
+>>>>>>> refs/remotes/origin/main
